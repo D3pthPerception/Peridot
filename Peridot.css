@@ -4,7 +4,9 @@ font-family: Courier New, Arial, sans-serif;
 
 font-size: 18px;
 line-height: 30px;
+color: #164D1E
 }
+
 /*Header Style*/
 
 header{
@@ -20,15 +22,17 @@ h1, h2{
 
 }
 header h1{
-	color:#C8FAEB;
+	color:#274B78;
 	font-size: 60px;
 
 }
 
 header img{
-	border-radius: 170px;
-	width: 300px;
-	border:10px solid #2E063E;
+	  border-radius: 100px;
+    width: 300px;
+    border: 10px solid #23A73D;
+}
+
 }
 
 main{
@@ -39,20 +43,26 @@ main{
 
 
 main img{
+
+	padding-left: 20px;
 	max-width: 100%;
+	height:auto;
 }
+
+
 h2{
 	font-size: 35px;
 	color:#1A1D4F;
 	margin: 40px 0 10px;
 }
+
+
 a{
-	color: #1A1D4F;
+	color: #264532;
 }
 a:hover{
-	color:#C8FAEB;
-	background-color:#970390;
-}
+	color:#266632;
+	}
 
 footer{
 	background-color: #9AF19B;
@@ -74,7 +84,7 @@ footer a:hover{
 }
 
 p.caption{
-	color: purple;
+	color: #24B8BF;
 	font-style: italic;
 	margin-top: 0;
 }
